@@ -26,7 +26,7 @@ allEqual([1, 1, 2]); // false
 
 For more complex values, such as objects, you might want to use a **mapping function** to compare the elements. This way, you can compare the elements based on a specific property or a custom comparison function.
 
-The technique is the same as before, except that you call the mapping function on the first element and then compare the rest of the array to the result.
+The technique is the same as before, except that you will call the mapping function on the first element and then compare the rest of the array to the result.
 
 ```js
 const allEqualBy = (arr, fn) =>
